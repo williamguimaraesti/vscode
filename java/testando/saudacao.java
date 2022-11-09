@@ -1,5 +1,4 @@
 import java.time.LocalDateTime;
-
 public class saudacao {
     public static void main(String[] args) {
         LocalDateTime now = LocalDateTime();

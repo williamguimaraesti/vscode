@@ -41,11 +41,6 @@ class Exer20{
 			}if(cont == 5){
 				System.out.println("Assassino");
 			}
-
-
-
-
-
 		}
 	}
 }
