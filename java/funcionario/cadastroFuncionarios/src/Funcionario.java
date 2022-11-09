@@ -1,9 +1,12 @@
-public class Cliente {
+public class Funcionario {
     private String nome;
     private int cpf;
 
 
-    public funcionario(String nome, int cpf) {
+    public Funcionario(String nome2, int cpf2, double salario) {
+    }
+
+    public void funcionario(String nome, int cpf) {
         this.nome = nome;
         this.cpf = cpf;
     }

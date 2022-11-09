@@ -14,4 +14,8 @@ public class saudacao {
         }
         System.out.println(message);
     }
+
+    private static LocalDateTime LocalDateTime() {
+        return null;
+    }
 }

@@ -8,12 +8,8 @@ public class TiposPrimitivos {
             String nome = teclado.nextLine();
             System.out.print("Digite sua nota: ");
             float nota = teclado.nextFloat();
-            System.out.println("Sua primeira de " + nome + " nota é:" + nota);
-            System.out.printf("Sua primeira de %s nota é:%.2f \n", nome, nota);
-            System.out.format("Sua primeira de %s nota é:%.2f \n", nome, nota);
+            System.out.println(nome + " sua nota é:" + nota);
+            System.out.printf("%s sua nota é:%.2f \n", nome, nota);
         }
-        
-
     }
-    
 }

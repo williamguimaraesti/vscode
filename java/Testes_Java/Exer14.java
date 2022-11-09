@@ -40,12 +40,6 @@ class Exer14{
 				case "E": System.out.println("Reprovado"); break;
 				default: break;
 			}
-
-
-
-
-		
-
 		}
 	}
 }
