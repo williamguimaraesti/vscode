@@ -2,7 +2,7 @@ public class CriaConta {
     public static void main(String[] args) throws Exception {
         /*Cliente novoCliente = new Cliente(null, 0, 0, null);
         novoCliente.nome = "william";
-        novoCliente.cpf  = 11778861709L;
+        novoCliente.cpf  = 111111111L;
         novoCliente.salario = 15000f;
         novoCliente.endereco = "São João de Meriti";
 
