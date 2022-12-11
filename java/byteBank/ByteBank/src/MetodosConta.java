@@ -3,12 +3,13 @@ public class MetodosConta {
     float sacar;
     float transferir;
     float pagar;
+    private float saldo;
     
     public MetodosConta(float depositar, float sacar, float transferir, float pagar) {
-        this.depositar = depositar;
-        this.sacar = sacar;
+        this.depositar  = depositar;
+        this.sacar      = sacar;
         this.transferir = transferir;
-        this.pagar = pagar;
+        this.pagar      = pagar;
     }
 
     public float getDepositar() {
@@ -24,7 +25,11 @@ public class MetodosConta {
     }
 
     public void setSacar(float sacar) {
-        this.sacar = sacar;
+        if (this.saldo >= this.sacar) {
+            System.out.println("Saque liberado.");
+        } else {
+            System.out.println("Saldo insuficiente na conta para realizar esta operação.");
+        }
     }
 
     public float getTransferir() {
@@ -32,7 +37,11 @@ public class MetodosConta {
     }
 
     public void setTransferir(float transferir) {
-        this.transferir = transferir;
+        if (this.saldo >= this.transferir) {
+            System.out.println("Transferencia autorizada.");
+        } else {
+            System.out.println("Saldo insuficiente na conta para realizar esta operação.");
+        }
     }
 
     public float getPagar() {
@@ -40,6 +49,10 @@ public class MetodosConta {
     }
 
     public void setPagar(float pagar) {
-        this.pagar = pagar;
+        if (this.saldo >= this.pagar) {
+            System.out.println("Pagamento realizado com sucesso.");
+        } else {
+            System.out.println("Saldo insuficiente na conta para realizar esta operação.");
+        }
     }   
 }
