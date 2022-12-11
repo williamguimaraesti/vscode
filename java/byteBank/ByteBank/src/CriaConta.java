@@ -11,7 +11,6 @@ public class CriaConta {
         System.out.println("Salário:R$" + novoCliente.salario);
         System.out.println("Endereço:" + novoCliente.endereco);*/
 
-
         /*Conta novaConta = new Conta(null, 0, 0, 0);
         novaConta.titular = "William";
         novaConta.agencia = 2323;
